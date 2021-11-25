@@ -14,7 +14,7 @@
 
 void	ft_num_of_hex_nbr(unsigned int n, char *Up_or_Low)
 {
-	 if (n >= 0 && n >= 16)
+	if (n >= 16)
 		ft_num_of_hex_nbr(n / 16, Up_or_Low);
 	ft_putchar(Up_or_Low[n % 16]);
 }
@@ -37,7 +37,7 @@ int	ft_putnbr_hex(unsigned int n, char *Up_or_Low)
 
 void	ft_num_of_hex_nbr_p(unsigned long int n, char *Up_or_Low)
 {
-	if (n >= 0 && n >= 16)
+	if (n >= 16)
 		ft_num_of_hex_nbr_p(n / 16, Up_or_Low);
 	ft_putchar(Up_or_Low[n % 16]);
 }
