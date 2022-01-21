@@ -1,3 +1,5 @@
 # ft_printf
-Ft_printf without bonus part ~ 12 h
-first ex of second circle
+
+Writes the C string pointed by format to the standard output (stdout). If format includes format specifiers (subsequences beginning with %), the additional arguments following format are formatted and inserted in the resulting string replacing their respective specifiers.
+
+My interpretation of standard function printf 
